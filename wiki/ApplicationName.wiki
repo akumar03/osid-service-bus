@@ -1,0 +1,10 @@
+#summary Speculations on application name
+
+= Possible Names =
+
+Some possible names for this thing are:
+
+  * Learnabus
+  * Educational Service Bus (ESB)
+  * EduServBus
+  * EduBus
