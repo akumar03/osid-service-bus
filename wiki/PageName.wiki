@@ -12,3 +12,5 @@ Some of the things we need to do to get this project rolling:
   * Capture notes from the first meeting
   * Document the goals of the project
   * Expand the number of participants
+
+[http://osid-service-bus.googlecode.com/files/Edu-Service-Bus-Diagram-1.jpg]
