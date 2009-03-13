@@ -6,8 +6,8 @@ One of the main goals of this project is to provide a way for applications and s
 
 The idea of a _bus_ is that transport of data and communication is abstracted away from the applications and services that use it.  Four basic transactions are supported by this concept:
 
-[OSB-Cases-1.jpg]
+[http://osid-service-bus.googlecode.com/files/OSB-Cases-1.jpg]
 
-[OSB-Cases-2.jpg]
+[http://osid-service-bus.googlecode.com/files/OSB-Cases-1.jpg]
 
 = Ideas =
