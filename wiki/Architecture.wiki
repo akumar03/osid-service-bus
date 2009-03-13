@@ -41,3 +41,7 @@ Service can be distributed but still be logically grouped together.  Clustered s
 Applications may peer with other application.  In this case, the applications are sharing or passing data between them as equals, rather than the client-server in Case 4 above.  BitTorrent or LionShare might be examples of this.
 
 = Ideas =
+
+== Re-use of Code ==
+
+There is no need to re-invent this particular wheel.  There are several enterprise service busses that could be adapted or expanded to include the OSID services.  The Java Message Service (JMS) has been used to implement ESB's and will be the basis of the Sakai3 architecture.  JMS is also supported in the Kuali Service Bus (KSB).
