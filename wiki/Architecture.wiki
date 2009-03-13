@@ -1,0 +1,13 @@
+#summary OSB Achitecture
+
+= Overview =
+
+One of the main goals of this project is to provide a way for applications and services written in different languages to communicate with each other using the OSIDs.  This concept has been explored in CORBA, Java RMI, and similar systems.  More recently, the idea of a _service bus_ has arisen that abstracts access to data and communication.  While it originated with web services, it has grown to include AJAX and RESTful approaches as well.
+
+The idea of a _bus_ is that transport of data and communication is abstracted away from the applications and services that use it.  Four basic transactions are supported by this concept:
+
+[http://osid-service-bus.googlecode.com/files/OSB-Cases-1.jpg]
+
+[http://osid-service-bus.googlecode.com/files/OSB-Cases-2.jpg]
+
+= Ideas =
