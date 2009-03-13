@@ -4,9 +4,37 @@
 
 One of the main goals of this project is to provide a way for applications and services written in different languages to communicate with each other using the OSIDs.  This concept has been explored in CORBA, Java RMI, and similar systems.  More recently, the idea of a _service bus_ has arisen that abstracts access to data and communication.  While it originated with web services, it has grown to include AJAX and RESTful approaches as well.
 
+= Use Cases =
+
 The idea of a _bus_ is that transport of data and communication is abstracted away from the applications and services that use it.  Here are some of the basic transactions supported by this concept:
 
 [http://osid-service-bus.googlecode.com/files/OSB-Cases-1.jpg]
+
+*Case 1*
+
+Applications can access local services.  Generally, this is done via direct library access, but there are advantages for going through a service bus (transactions, monitoring, traceability, etc.)
+
+*Case 2*
+
+Remote service access is the typical Web Service/AJAX service request.  Data is requested from a remote service provided and formatted for display in the local application (which might be a browser or more specialized application like VUE.
+
+*Case 3*
+
+The model can be extended such that local services depend or access remote service.  So a local file system service might authenticate a user against a remote authentication service, for example.
+
+*Case 4*
+
+A local application can be integrated into a remote one.  Examples include classic client-server applications where data is accessed from a remote application, rather than from a remote service.  This allows the remote application to modify/filter/mitigate data that it manages via it's own local services.  This is a bit different than the peer to peer case in Case 6, below.
+
+*Case 5*
+
+Shows federation of remote services.  Multiple remote repositories might be searched and results aggregated in a single OSB transaction.
+
+*Case 6*  (Might need to split this up)
+
+Service can be distributed but still be logically grouped together.  Clustered services might be an example of this or a repository that uses a database service on a different, but close system.
+
+Applications may peer with other application.  In this case, the applications are sharing or passing data between them as equals, rather than the client-server in Case 4 above.  BitTorrent or LionShare might be examples of this.
 
 [http://osid-service-bus.googlecode.com/files/OSB-Cases-2.jpg]
 
