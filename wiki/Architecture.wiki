@@ -26,11 +26,13 @@ The model can be extended such that local services depend or access remote servi
 
 A local application can be integrated into a remote one.  Examples include classic client-server applications where data is accessed from a remote application, rather than from a remote service.  This allows the remote application to modify/filter/mitigate data that it manages via it's own local services.  This is a bit different than the peer to peer case in Case 6, below.
 
-[http://osid-service-bus.googlecode.com/files/OSB-Cases-2.jpg]
+[http://osid-service-bus.googlecode.com/files/OSB-Cases-5.jpg]
 
 *Case 5*
 
 Shows federation of remote services.  Multiple remote repositories might be searched and results aggregated in a single OSB transaction.
+
+[http://osid-service-bus.googlecode.com/files/OSB-Cases-6.jpg]
 
 *Case 6*  (Might need to split this up)
 
