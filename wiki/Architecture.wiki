@@ -26,6 +26,8 @@ The model can be extended such that local services depend or access remote servi
 
 A local application can be integrated into a remote one.  Examples include classic client-server applications where data is accessed from a remote application, rather than from a remote service.  This allows the remote application to modify/filter/mitigate data that it manages via it's own local services.  This is a bit different than the peer to peer case in Case 6, below.
 
+[http://osid-service-bus.googlecode.com/files/OSB-Cases-2.jpg]
+
 *Case 5*
 
 Shows federation of remote services.  Multiple remote repositories might be searched and results aggregated in a single OSB transaction.
@@ -35,7 +37,5 @@ Shows federation of remote services.  Multiple remote repositories might be sear
 Service can be distributed but still be logically grouped together.  Clustered services might be an example of this or a repository that uses a database service on a different, but close system.
 
 Applications may peer with other application.  In this case, the applications are sharing or passing data between them as equals, rather than the client-server in Case 4 above.  BitTorrent or LionShare might be examples of this.
-
-[http://osid-service-bus.googlecode.com/files/OSB-Cases-2.jpg]
 
 = Ideas =
