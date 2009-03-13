@@ -8,6 +8,6 @@ The idea of a _bus_ is that transport of data and communication is abstracted aw
 
 [http://osid-service-bus.googlecode.com/files/OSB-Cases-1.jpg]
 
-[http://osid-service-bus.googlecode.com/files/OSB-Cases-1.jpg]
+[http://osid-service-bus.googlecode.com/files/OSB-Cases-2.jpg]
 
 = Ideas =
