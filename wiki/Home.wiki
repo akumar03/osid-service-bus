@@ -20,5 +20,6 @@ Some of the things we need to do to get this project rolling:
   * Document the goals of the project
   * Expand the number of participants
   * Determine a good [ApplicationName application name]
+  * Looking into Mellon ESB Work [http://tid.ithaka.org/enterprise-service-bus-project]
 
 [http://osid-service-bus.googlecode.com/files/Edu-Service-Bus-Diagram-1.jpg]
