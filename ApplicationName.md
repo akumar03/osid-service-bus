@@ -1,0 +1,9 @@
+# Possible Names #
+
+Some possible names for this thing are:
+
+  * OSID Service Bus (OSB)
+  * Learnabus
+  * Educational Service Bus (ESB)
+  * EduServBus
+  * EduBus
